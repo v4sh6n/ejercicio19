@@ -31,8 +31,9 @@ public class Cliente implements Serializable {
 	/*
 	 * Atributos
 	 * 
-	 * Del tipo Long con mayuscula, no del tipo primitivo, es la Primary Key asique
-	 * se anota con @Id
+	 * Del tipo Long con mayuscula(tipo de referencia de una clase que nos permite trabajar con conversiones de tipos)
+	 * no del tipo primitivo, es la Primary Key asique se anota con @Id
+	 * 
 	 * 
 	 * GeneratedValue indicamos la estrategia para MySQL y H2 es el más indicado
 	 *
