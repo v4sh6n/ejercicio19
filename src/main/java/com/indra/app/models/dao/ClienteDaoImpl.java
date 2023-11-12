@@ -19,7 +19,6 @@ import jakarta.transaction.Transactional;
  */
 
 
-
 @Repository
 public class ClienteDaoImpl implements IClienteDao {
 	/*
